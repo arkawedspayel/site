@@ -50,6 +50,12 @@ var x = setInterval(function() {
         document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
     }
 }, 1000);
+setTimeout(function() {
+    var audio = document.getElementById("audio");
+    audio.play();
+
+}, 1000);
+
 
 // being a bit cool :p  
 var styles = [
