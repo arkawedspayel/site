@@ -51,8 +51,9 @@ var x = setInterval(function() {
     }
 }, 1000);
 setTimeout(function() {
-    var audio = document.getElementById("my_audio");
-    audio.play();
+    /*var audio = document.getElementById("my_audio");
+    audio.play();*/
+    $("body").click();
 
 }, 1000);
 
