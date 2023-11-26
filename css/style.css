@@ -487,6 +487,10 @@ body {
 	text-decoration: none;
 	color: #fff;
 }
+.venue i{
+
+	margin-right:8px;
+}
 
 .container {
 	display: grid;
@@ -503,6 +507,12 @@ body {
 	align-items: center;
 	text-align: center;
 	color: #fff;
+}
+@media (max-width:900px) {
+	.block {
+		width: 150px;
+	        height: 150px;
+	}
 }
 
 .days {
