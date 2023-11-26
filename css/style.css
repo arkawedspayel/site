@@ -464,18 +464,19 @@ body {
 
 #time {
 	width: auto;
+	max-width:100%;
 	height: auto;
 	padding: 20px;
 	background-color: #eee;
 	border-radius: 20px;
-	font-size: 16px;
+	font-size: 24px;
 }
 
 .venue {
 	width: auto;
 	height: auto;
 	background-color: #674ea7;
-	border-radius: 16px;
+	border-radius: 8px;
 	text-align: center;
 	color: #fff;
 	padding: 8px;
@@ -565,7 +566,7 @@ a {
 }
 
 .twitter {
-	color: #874562;
+	color: green;
 }
 
 .music {
